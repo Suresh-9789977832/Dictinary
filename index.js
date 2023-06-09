@@ -1,4 +1,4 @@
-const inputval=document.getElementById('inputval')
+const input=document.getElementById('inputval')
 const search =document.getElementById('search')
 
 
@@ -13,5 +13,5 @@ async function getmeaning(word){
 }
 
 search.addEventListener('click',()=>{
-        getmeaning(inputval.value)
+        getmeaning(input.value)
 })
